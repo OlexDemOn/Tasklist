@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskList</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__container">
+                    <p>ToDo List</p>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="container">
+                <div class="main-container">
+                    <div class="main-body">
+                        <div class="add-element">
+                            <form action="#">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <input class="add-element__name" type="text" placeholder="What should be done?">
+                                <div class="add-element__time">
+                                    <!--                                <input name="timeTodo" type="radio" style="&#45;&#45;clr: #13c913">-->
+                                    <!--                                <input name="timeTodo" type="radio" style="&#45;&#45;clr: #f3f336">-->
+                                    <!--                                <input name="timeTodo" type="radio" style="&#45;&#45;clr: #e12626">-->
+                                </div>
+                            </form>
+                        </div>
+                        <div class="elements">
+
+                        </div>
+                        <footer class="options">
+                            <div class="options__close-all">
+                                <p>clear all</p>
+                            </div>
+                            <form class="form__options" action="#">
+                                <div class="options__all">
+                                    <input checked name="options" type="radio">All
+                                    <span class="options__activated"></span>
+                                    <span class="options__disable"></span>
+                                </div>
+                                <div class="options__active">
+                                    <input name="options" type="radio">Active
+                                    <span class="options__activated"></span>
+                                    <span class="options__disable"></span>
+                                </div>
+                                <div class="options__completed">
+                                    <input name="options" type="radio">Completed
+                                    <span class="options__activated"></span>
+                                    <span class="options__disable"></span>
+                                </div>
+                            </form>
+                        </footer>
+                    </div>
+                    <div class="main-clock">
+                        <div class="main-clock__top">
+                            <div class="clock">
+                            </div>
+                            <div class="calendar-month">
+                                <select class="calendar-month__values">
+                                    <option value="0">January</option>
+                                    <option value="1">February</option>
+                                    <option value="2">March</option>
+                                    <option value="3">April</option>
+                                    <option value="4">May</option>
+                                    <option value="5">June</option>
+                                    <option value="6">July</option>
+                                    <option value="7">August</option>
+                                    <option value="8">September</option>
+                                    <option value="9">October</option>
+                                    <option value="10">November</option>
+                                    <option value="11">December</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="calendar">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer"></footer>
+        </div>
+    </div>
+
+</body>
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/7fae9cbd96.js" crossorigin="anonymous"></script>
+
+</html>
